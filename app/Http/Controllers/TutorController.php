@@ -9,4 +9,8 @@ class TutorController extends Controller
     {
         return view('tutor.index');
     }
+
+    public function create(){
+        return view('admin.tutor_form');
+    }
 }

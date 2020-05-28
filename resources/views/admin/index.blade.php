@@ -35,12 +35,12 @@
 							</div>
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="courses.html">Mata Pelajaran</a></li>
-									<li><a href="instructors.html">Tutor</a></li>
-									<li><a href="#">Soal</a></li>
-									<li><a href="blog.html">Ujian</a></li>
-									<li><a href="contact.html">Berita</a></li>
+									<li class="active"><a href="/admin">Home</a></li>
+									<li><a href="{{action('MateriController@create')}}">Mata Pelajaran</a></li>
+									<li><a href="{{action('TutorController@create')}}">Tutor</a></li>
+									<li><a href="{{action('SoalController@create')}}">Soal</a></li>
+									<li><a href="{{action('UjianController@create')}}">Ujian</a></li>
+									<li><a href="{{action('BeritaController@create')}}">Berita</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -85,12 +85,12 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courses.html">Mata Pelajaran</a></li>
-				<li class="menu_mm"><a href="instructors.html">Tutor</a></li>
-				<li class="menu_mm"><a href="#">Soal</a></li>
-				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
-				<li class="menu_mm"><a href="contact.html">Berita</a></li>
+				<li class="menu_mm"><a href="/admin">Home</a></li>
+				<li class="menu_mm"><a href="{{action('MateriController@create')}}">Mata Pelajaran</a></li>
+				<li class="menu_mm"><a href="{{action('TutorController@create')}}">Tutor</a></li>
+				<li class="menu_mm"><a href="{{action('SoalController@create')}}">Soal</a></li>
+				<li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+				<li class="menu_mm"><a href="{{action('BeritaController@create')}}">Berita</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">

@@ -3,14 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-class AdminController extends Controller
+class SoalController extends Controller
 {
-    public function index()
-    {
-        return view('admin.index');
-        //return view('admin.course_form');
-    }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -18,7 +12,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        return view('admin.course_form');
+        return view('admin.soal_form');
     }
 
     // public function show_tutor()

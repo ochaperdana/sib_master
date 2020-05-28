@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::resource('admin', 'AdminController');
 Route::resource('tutor', 'TutorController');
 Route::resource('student', 'StudentController');
+Route::resource('materi', 'MateriController');
+Route::resource('soal', 'SoalController');
+Route::resource('berita', 'BeritaController');
+Route::resource('ujian', 'UjianController');
