@@ -36,11 +36,11 @@
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
                                     <li><a href="/admin">Home</a></li>
-									<li><a href="{{action('AdminController@create_materi')}}">Mata Pelajaran</a></li>
-									<li class="active"><a href="{{action('AdminController@create_tutor')}}">Tutor</a></li>
-									<li><a href="{{action('AdminController@create_soal')}}">Soal</a></li>
-									<li><a href="{{action('AdminController@create_ujian')}}">Ujian</a></li>
-									<li><a href="{{action('AdminController@create_berita')}}">Berita</a></li>
+									<li><a href="{{action('MateriController@create')}}">Materi</a></li>
+									<li><a href="{{action('TutorController@create')}}">Tutor</a></li>
+									<li><a href="{{action('SoalController@create')}}">Soal</a></li>
+									<li class="active"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+									<li><a href="{{action('BeritaController@create')}}">Berita</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -86,11 +86,11 @@
 		<nav class="menu_nav">
 			<ul class="menu_mm">
             <li class="menu_mm"><a href="/admin">Home</a></li>
-				<li class="menu_mm"><a href="{{action('AdminController@create_materi')}}">Mata Pelajaran</a></li>
-				<li class="menu_mm"><a href="{{action('AdminController@create_tutor')}}">Tutor</a></li>
-				<li class="menu_mm"><a href="{{action('AdminController@create_soal')}}">Soal</a></li>
-				<li class="menu_mm"><a href="{{action('AdminController@create_ujian')}}">Ujian</a></li>
-				<li class="menu_mm"><a href="{{action('AdminController@create_berita')}}">Berita</a></li>
+				<li class="menu_mm"><a href="{{action('MateriController@create')}}">Materi</a></li>
+				<li class="menu_mm"><a href="{{action('TutorController@create')}}">Tutor</a></li>
+				<li class="menu_mm"><a href="{{action('SoalController@create')}}">Soal</a></li>
+				<li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+				<li class="menu_mm"><a href="{{action('BeritaController@create')}}">Berita</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">
@@ -115,34 +115,35 @@
 
 				<div class="col-lg-12">
 					<div class="register_form_container">
-						<div class="register_form_title">Entry Materi</div>
+						<div class="register_form_title">Entry Ujian</div>
 						<form action="#" id="register_form" class="register_form">
                         {{csrf_field()}}
 							<div class="row register_row">
                                 <div class="col-lg-6 register_col">
-                                    <label for="id_kategori">Kategori</label><br>
-                                    <select class="form-control" name="id_kategori" class="form_input">
-                                        <option value="1">Basic Reading</option>
-                                        <option value="2">Basic Listening</option>
+                                    <label for="id_kelas">Kelas</label><br>
+                                    <select class="form-control" name="id_kelas" class="form_input">
+                                        <option value="1">Beginner - TOEFL Preparation</option>
+                                        <option value="2">Intermediate - TOEFL Preparation</option>
                                     </select>
 								</div>
 								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="judul" placeholder="Judul Materi" required="required">
+									<input type="text" class="form_input" name="nama_ujian" placeholder="Nama Ujian" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
-									<input type="textarea" class="form_input" name="ket" placeholder="Keterangan" required="required">
+									<input type="time" class="form_input" name="waktu" placeholder="Jam" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
-									<input type="file" class="form_input" name="file" placeholder="File">
+									<input type="date" class="form_input" name="date" placeholder="Tanggal" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
-									<input type="textarea" class="form_input" name="isi" placeholder="Isi Materi" required="required">
+									<label for="file_ujian">File Ujian</label><br>
+									<input type="file" class="form_input" name="file_ujian" placeholder="File">
 								</div>
                                 <div class="col-lg-6 register_col">
-                                    <label for="type_siswa">Tipe Siswa</label><br>
-                                    <select class="form-control" name="type_siswa" class="form_input">
-                                        <option value="free">Free</option>
-                                        <option value="member">Member</option>
+                                    <label for="status">Status Ujian</label><br>
+                                    <select class="form-control" name="status" class="form_input">
+                                        <option value="aktif">Aktif</option>
+                                        <option value="nonaktif">Nonaktif</option>
                                     </select>
 								</div>
 								<div class="col">

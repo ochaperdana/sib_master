@@ -36,7 +36,7 @@
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
 									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="courses.html">Mata Pelajaran</a></li>
+									<li><a href="courses.html">Materi</a></li>
 									<li><a href="instructors.html">Tutor</a></li>
 									<li><a href="#">Soal</a></li>
 									<li><a href="blog.html">Ujian</a></li>
@@ -86,7 +86,7 @@
 		<nav class="menu_nav">
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courses.html">Mata Pelajaran</a></li>
+				<li class="menu_mm"><a href="courses.html">Materi</a></li>
 				<li class="menu_mm"><a href="instructors.html">Tutor</a></li>
 				<li class="menu_mm"><a href="#">Soal</a></li>
 				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
@@ -130,7 +130,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Mata Pelajaran</h2>
+					<h2 class="section_title text-center">Materi</h2>
 				</div>
 			</div>
 			<div class="row courses_row">

@@ -36,7 +36,7 @@
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
                                     <li><a href="/admin">Home</a></li>
-									<li class="active"><a href="{{action('MateriController@create')}}">Mata Pelajaran</a></li>
+									<li class="active"><a href="{{action('MateriController@create')}}">Materi</a></li>
 									<li><a href="{{action('TutorController@create')}}">Tutor</a></li>
 									<li><a href="{{action('SoalController@create')}}">Soal</a></li>
 									<li><a href="{{action('UjianController@create')}}">Ujian</a></li>
@@ -86,7 +86,7 @@
 		<nav class="menu_nav">
 			<ul class="menu_mm">
                 <li class="menu_mm"><a href="/admin">Home</a></li>
-				<li class="menu_mm"><a href="{{action('MateriController@create')}}">Mata Pelajaran</a></li>
+				<li class="menu_mm"><a href="{{action('MateriController@create')}}">Materi</a></li>
 				<li class="menu_mm"><a href="{{action('TutorController@create')}}">Tutor</a></li>
 				<li class="menu_mm"><a href="{{action('SoalController@create')}}">Soal</a></li>
 				<li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
