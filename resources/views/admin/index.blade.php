@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>UB-SIB</title>
+<title>UB-SIB | Admin</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Lingua project">
@@ -114,8 +114,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col text-center">
-						<h1 class="home_title">Learn Everything at One</h1>
-						<div class="home_button trans_200"><a href="#">Mulai</a></div>
+						<h1 class="home_title">Welcome, Admin!</h1>
 					</div>
 				</div>
 			</div>
@@ -130,7 +129,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Mata Pelajaran</h2>
+					<h2 class="section_title text-center"><a href="">Mata Pelajaran</a></h2>
 				</div>
 			</div>
 			<div class="row courses_row">
@@ -218,7 +217,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Tutor</h2>
+					<h2 class="section_title text-center"><a href="">Tutor</a></h2>
 				</div>
 			</div>
 			<div class="row instructors_row">
@@ -351,7 +350,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Berita</h2>
+					<h2 class="section_title text-center"><a href="">Berita</a></h2>
 				</div>
 			</div>
 			<div class="row events_row">
@@ -394,6 +393,62 @@
 						</div>
 						<div class="event_body d-flex flex-row align-items-center justify-content-start">
 							<div class="event_title"><a href="#">Marking Scheme</a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Ujian -->
+	<div class="events">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="section_title text-center"><a href="">Ujian</a></h2>
+				</div>
+			</div>
+			<div class="row events_row">
+				
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_1.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">20</div>
+							<div class="event_month">may</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">TOEFL IBT</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_2.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">02</div>
+							<div class="event_month">jun</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">Last Tryout</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_3.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">09</div>
+							<div class="event_month">jun</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">Final Exam</a></div>
 						</div>
 					</div>
 				</div>
@@ -505,12 +560,12 @@
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="footer_body">
+		<!-- <div class="footer_body">
 			<div class="container">
-				<div class="row">
+				<div class="row"> -->
 
 					<!-- Newsletter -->
-					<div class="col-lg-3 footer_col">
+					<!-- <div class="col-lg-3 footer_col">
 						<div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
 							<div class="footer_logo mb-auto"><a href="#">UB-SIB</a></div>
 							<div class="footer_title">Subscribe</div>
@@ -519,10 +574,10 @@
 								<button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 							</form>
 						</div>
-					</div>
+					</div> -->
 
 					<!-- About -->
-					<div class="col-lg-2 offset-lg-3 footer_col">
+					<!-- <div class="col-lg-2 offset-lg-3 footer_col">
 						<div>
 							<div class="footer_title">About Us</div>
 							<ul class="footer_list">
@@ -532,10 +587,10 @@
 								<li><a href="#">Contact us</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 
 					<!-- Help & Support -->
-					<div class="col-lg-2 footer_col">
+					<!-- <div class="col-lg-2 footer_col">
 						<div class="footer_title">Help & Support</div>
 						<ul class="footer_list">
 							<li><a href="#">Discussions</a></li>
@@ -543,10 +598,10 @@
 							<li><a href="#">Schools FAQs</a></li>
 							<li><a href="#">Test FAQs</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 					<!-- Privacy -->
-					<div class="col-lg-2 footer_col clearfix">
+					<!-- <div class="col-lg-2 footer_col clearfix">
 						<div>
 							<div class="footer_title">Privacy & Terms</div>
 							<ul class="footer_list">
@@ -559,7 +614,9 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+
 		<div class="copyright">
 			<div class="container">
 				<div class="row">

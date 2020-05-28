@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>UB-SIB</title>
+<title>UB-SIB | Tutor</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Lingua project">
@@ -37,9 +37,8 @@
 								<ul class="main_nav">
 									<li class="active"><a href="index.html">Home</a></li>
 									<li><a href="courses.html">Mata Pelajaran</a></li>
-									<li><a href="instructors.html">Tutor</a></li>
-									<li><a href="#">Soal</a></li>
-									<li><a href="blog.html">Ujian</a></li>
+									<li><a href="blog.html">Soal</a></li>
+									<li><a href="contact.html">Ujian</a></li>
 									<li><a href="contact.html">Berita</a></li>
 								</ul>
 							</nav>
@@ -87,8 +86,7 @@
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Home</a></li>
 				<li class="menu_mm"><a href="courses.html">Mata Pelajaran</a></li>
-				<li class="menu_mm"><a href="instructors.html">Tutor</a></li>
-				<li class="menu_mm"><a href="#">Soal</a></li>
+				<li class="menu_mm"><a href="blog.html">Soal</a></li>
 				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
 				<li class="menu_mm"><a href="contact.html">Berita</a></li>
 			</ul>
@@ -114,8 +112,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col text-center">
-						<h1 class="home_title">Learn Everything at One</h1>
-						<div class="home_button trans_200"><a href="#">Mulai</a></div>
+						<h1 class="home_title">Welcome, Instructor!</h1>
 					</div>
 				</div>
 			</div>
@@ -130,7 +127,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Mata Pelajaran</h2>
+					<h2 class="section_title text-center"><a href="">Mata Pelajaran</a></h2>
 				</div>
 			</div>
 			<div class="row courses_row">
@@ -213,18 +210,18 @@
 
 	<!-- Instructors -->
 
-	<div class="instructors">
+	<!-- <div class="instructors">
 		<div class="instructors_background" style="background-image:url(images/instructors_background.png)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Tutor</h2>
+					<h2 class="section_title text-center"><a href="">Tutor</a></h2>
 				</div>
 			</div>
-			<div class="row instructors_row">
+			<div class="row instructors_row"> -->
 
 				<!-- Instructor -->
-				<div class="col-lg-4 instructor_col">
+				<!-- <div class="col-lg-4 instructor_col">
 					<div class="instructor text-center">
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/instructor_1.jpg" alt=""></div>
@@ -242,10 +239,10 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- Instructor -->
-				<div class="col-lg-4 instructor_col">
+				<!-- <div class="col-lg-4 instructor_col">
 					<div class="instructor text-center">
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/instructor_2.jpg" alt=""></div>
@@ -263,10 +260,10 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- Instructor -->
-				<div class="col-lg-4 instructor_col">
+				<!-- <div class="col-lg-4 instructor_col">
 					<div class="instructor text-center">
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/instructor_3.jpg" alt=""></div>
@@ -288,7 +285,7 @@
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Register -->
 
@@ -351,7 +348,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Berita</h2>
+					<h2 class="section_title text-center"><a href="">Berita</a></h2>
 				</div>
 			</div>
 			<div class="row events_row">
@@ -402,115 +399,71 @@
 		</div>
 	</div>
 
-	<!-- Blog -->
-
-	<!-- <div class="blog">
+	<!-- Ujian -->
+	<div class="events">
 		<div class="container">
-			<div class="row row-lg-eq-height"> -->
+			<div class="row">
+				<div class="col">
+					<h2 class="section_title text-center"><a href="">Ujian</a></h2>
+				</div>
+			</div>
+			<div class="row events_row">
 				
-				<!-- Blog Left -->
-				<!-- <div class="col-lg-6">
-					<div class="blog_left">
-						<div class="blog_title">From Our Blog</div>
-						<div class="blog_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p>
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_1.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">20</div>
+							<div class="event_month">may</div>
 						</div>
-						<div class="blog_categories">
-							<div class="row categories_row"> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_1.jpg" alt=""></div>
-											<div class="blog_category_title">travel</div>
-										</div>
-									</a>
-								</div> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_2.jpg" alt=""></div>
-											<div class="blog_category_title">languages</div>
-										</div>
-									</a>
-								</div> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_3.jpg" alt=""></div>
-											<div class="blog_category_title">cultures</div>
-										</div>
-									</a>
-								</div> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_4.jpg" alt=""></div>
-											<div class="blog_category_title">fashion</div>
-										</div>
-									</a>
-								</div> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_5.jpg" alt=""></div>
-											<div class="blog_category_title">cooking</div>
-										</div>
-									</a>
-								</div> -->
-
-								<!-- Category -->
-								<!-- <div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_6.jpg" alt=""></div>
-											<div class="blog_category_title">hobbies</div>
-										</div>
-									</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div> -->
-
-				<!-- Blog Right -->
-
-				<!-- <div class="col-lg-6">
-					<div class="blog_right">
-						<div class="blog_image" style="background-image:url(images/blog_7.jpg)"></div>
-						<div class="blog_title_container">
-							<div class="blog_right_category"><a href="#">travel</a></div>
-							<div class="blog_right_title"><a href="blog_single.html">Design Better Forms</a></div>
-							<div class="blog_right_text">
-								<p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface, forms are one of the most important components of digital product design.</p>
-							</div>
-							<div class="read_more"><a href="blog_single.html">Read More <img src="images/right.png" alt=""></a></div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">TOEFL IBT</a></div>
 						</div>
 					</div>
 				</div>
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_2.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">02</div>
+							<div class="event_month">jun</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">Last Tryout</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event">
+						<div class="event_image"><img src="images/event_3.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">09</div>
+							<div class="event_month">jun</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">Final Exam</a></div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="footer_body">
+		<!-- <div class="footer_body">
 			<div class="container">
-				<div class="row">
+				<div class="row"> -->
 
 					<!-- Newsletter -->
-					<div class="col-lg-3 footer_col">
+					<!-- <div class="col-lg-3 footer_col">
 						<div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
 							<div class="footer_logo mb-auto"><a href="#">UB-SIB</a></div>
 							<div class="footer_title">Subscribe</div>
@@ -519,10 +472,10 @@
 								<button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 							</form>
 						</div>
-					</div>
+					</div> -->
 
 					<!-- About -->
-					<div class="col-lg-2 offset-lg-3 footer_col">
+					<!-- <div class="col-lg-2 offset-lg-3 footer_col">
 						<div>
 							<div class="footer_title">About Us</div>
 							<ul class="footer_list">
@@ -532,10 +485,10 @@
 								<li><a href="#">Contact us</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 
 					<!-- Help & Support -->
-					<div class="col-lg-2 footer_col">
+					<!-- <div class="col-lg-2 footer_col">
 						<div class="footer_title">Help & Support</div>
 						<ul class="footer_list">
 							<li><a href="#">Discussions</a></li>
@@ -543,10 +496,10 @@
 							<li><a href="#">Schools FAQs</a></li>
 							<li><a href="#">Test FAQs</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 					<!-- Privacy -->
-					<div class="col-lg-2 footer_col clearfix">
+					<!-- <div class="col-lg-2 footer_col clearfix">
 						<div>
 							<div class="footer_title">Privacy & Terms</div>
 							<ul class="footer_list">
@@ -559,7 +512,9 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+
 		<div class="copyright">
 			<div class="container">
 				<div class="row">
