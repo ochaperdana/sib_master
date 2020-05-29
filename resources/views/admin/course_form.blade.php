@@ -116,9 +116,12 @@
 				<div class="col-lg-12">
 					<div class="register_form_container">
 						<div class="register_form_title">Entry Materi</div>
-						<form action="#" id="register_form" class="register_form">
+						<form action="{{action('MateriController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">
+								<div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="id_materi" placeholder="ID Materi" value="<?php echo rand(10, 2301); ?>">
+								</div>
                                 <div class="col-lg-6 register_col">
                                     <label for="id_kategori">Kategori</label><br>
                                     <select class="form-control" name="id_kategori" class="form_input">
@@ -137,6 +140,14 @@
 								</div>
 								<div class="col-lg-6 register_col">
 									<input type="textarea" class="form_input" name="isi" placeholder="Isi Materi" required="required">
+								</div>
+								<div class="col-lg-6 register_col">
+                                    <label for="type_materi">Tipe Materi</label><br>
+                                    <select class="form-control" name="type_materi" class="form_input">
+                                        <option value="materi">Materi</option>
+										<option value="tips">Tips</option>
+										<option value="trick">Trick</option>
+                                    </select>
 								</div>
                                 <div class="col-lg-6 register_col">
                                     <label for="type_siswa">Tipe Siswa</label><br>

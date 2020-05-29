@@ -40,6 +40,7 @@
 									<li><a href="{{action('TutorController@create')}}">Tutor</a></li>
 									<li><a href="{{action('SoalController@create')}}">Soal</a></li>
 									<li><a href="{{action('UjianController@create')}}">Ujian</a></li>
+									<li><a href="{{action('StudentController@create')}}">Siswa</a></li>
 									<li><a href="{{action('BeritaController@create')}}">Berita</a></li>
 								</ul>
 							</nav>
@@ -90,6 +91,7 @@
 				<li class="menu_mm"><a href="{{action('TutorController@create')}}">Tutor</a></li>
 				<li class="menu_mm"><a href="{{action('SoalController@create')}}">Soal</a></li>
 				<li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+				<li class="menu_mm"><a href="{{action('StudentController@create')}}">Siswa</a></li>
 				<li class="menu_mm"><a href="{{action('BeritaController@create')}}">Berita</a></li>
 			</ul>
 		</nav>

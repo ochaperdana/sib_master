@@ -116,15 +116,13 @@
 				<div class="col-lg-12">
 					<div class="register_form_container">
 						<div class="register_form_title">Entry Tutor</div>
-						<form action="#" id="register_form" class="register_form">
+						<form action="{{action('TutorController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">
                                 <div class="col-lg-6 register_col">
                                     <label for="id_kategori">Kategori</label><br>
                                     <select class="form-control" name="type_user" class="form_input">
-                                        <option value="owner">Owner</option>
                                         <option value="tutor">Tutor</option>
-                                        <option value="admin">Admin</option>
                                     </select>
 								</div>
                                 <div class="col-lg-6 register_col">

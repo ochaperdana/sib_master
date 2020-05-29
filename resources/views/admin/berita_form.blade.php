@@ -116,7 +116,7 @@
 				<div class="col-lg-12">
 					<div class="register_form_container">
 						<div class="register_form_title">Entry Berita</div>
-						<form action="#" id="register_form" class="register_form">
+						<form action="{{action('BeritaController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">
                                 <div class="col-lg-6 register_col">
@@ -133,18 +133,17 @@
                                     </select>
 								</div>
 								<div class="col-lg-6 register_col">
-									<label for="date_upload">Tanggal Upload</label><br>
-									<input type="date" class="form_input" name="date_upload" placeholder="Tanggal Upload" required="required">
+									<label for="date_publish">Tanggal Publikasi</label><br>
+									<input type="date" class="form_input" name="date_publish" placeholder="Tanggal Publikasi" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
-									<label for="date_published">Tanggal Publikasi</label><br>
-									<input type="date" class="form_input" name="date_published" placeholder="Tanggal Publikasi" required="required">
+									<label for="judul">Judul Berita</label><br>
+									<input type="text" class="form_input" name="judul" placeholder="" required>
 								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="judul" placeholder="Judul Berita" required>
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="textarea" class="form_input" name="news" placeholder="Isi Berita" required="required">
+								<div class="col-lg-12 register_col">
+									{{-- <input type="textarea" class="form_input" name="news" placeholder="Isi Berita" required="required"> --}}
+									<label for="news">Isi Berita</label><br>
+									<textarea name="news" class="form_input" required rows="10" cols="100"></textarea>
 								</div>
 								<div class="col">
 									<button type="submit" class="form_button trans_200">Simpan</button>

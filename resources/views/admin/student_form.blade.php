@@ -38,8 +38,9 @@
                                     <li><a href="/admin">Home</a></li>
 									<li><a href="{{action('MateriController@create')}}">Materi</a></li>
 									<li><a href="{{action('TutorController@create')}}">Tutor</a></li>
-									<li class="active"><a href="{{action('SoalController@create')}}">Soal</a></li>
-									<li><a href="{{action('UjianController@create')}}">Ujian</a></li>
+									<li><a href="{{action('SoalController@create')}}">Soal</a></li>
+                                    <li><a href="{{action('UjianController@create')}}">Ujian</a></li>
+                                    <li class="active"><a href="{{action('StudentController@create')}}">Siswa</a></li>
 									<li><a href="{{action('BeritaController@create')}}">Berita</a></li>
 								</ul>
 							</nav>
@@ -89,7 +90,8 @@
 				<li class="menu_mm"><a href="{{action('MateriController@create')}}">Materi</a></li>
 				<li class="menu_mm"><a href="{{action('TutorController@create')}}">Tutor</a></li>
 				<li class="menu_mm"><a href="{{action('SoalController@create')}}">Soal</a></li>
-				<li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+                <li class="menu_mm"><a href="{{action('UjianController@create')}}">Ujian</a></li>
+                <li class="menu_mm"><a href="{{action('StudentController@create')}}">Siswa</a></li>
 				<li class="menu_mm"><a href="{{action('BeritaController@create')}}">Berita</a></li>
 			</ul>
 		</nav>
@@ -115,47 +117,55 @@
 
 				<div class="col-lg-12">
 					<div class="register_form_container">
-						<div class="register_form_title">Entry Soal</div>
-						<form action="{{action('SoalController@store')}}" id="register_form" class="register_form" method="POST">
+						<div class="register_form_title">Entry Siswa</div>
+						<form action="{{action('StudentController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">
-                                <div class="col-lg-12 register_col">
-                                    <label for="id_ujian">ID Ujian</label><br>
-                                    <select class="form-control" name="id_ujian" class="form_input">
-                                        <option value="4478">Pre-test Examination W4 May</option>
-                                        {{-- <option value="2">Weekly Exam - June</option>
-										<option value="3">TOEFL Preparation</option>
-										<option value="4">Finals</option> --}}
+                                <div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="id_siswa" placeholder="ID Siswa" value="<?php echo rand(1, 2301); ?>">
+								</div>
+                                <div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="username" placeholder="Username" required="required">
+								</div>
+								<div class="col-lg-6 register_col">
+									<input type="password" class="form_input" name="password" placeholder="Password" required="required">
+                                </div>
+                                <div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="nama" placeholder="Nama" required="required">
+                                </div>
+                                <div class="col-lg-6 register_col">
+									<input type="textarea" class="form_input" name="alamat" placeholder="Alamat" required="required">
+                                </div>
+                                <div class="col-lg-6 register_col">
+									<input type="texta" class="form_input" name="telp" placeholder="Telepon" required="required">
+								</div>
+                                <div class="col-lg-6 register_col">
+                                    <label for="id_kelas">Kelas</label><br>
+                                    <select class="form-control" name="id_kelas" class="form_input">
+                                        <option value="1">Beginner - TOEFL Preparation</option>
+                                        <option value="2">Intermediate - TOEFL Preparation</option>
                                     </select>
 								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="soal" placeholder="Soal" required="required">
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="pilihan1" placeholder="Opsi A" required="required">
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="pilihan2" placeholder="Opsi B" required="required">
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="pilihan3" placeholder="Opsi C" required="required">
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="pilihan4" placeholder="Opsi D" required="required">
-								</div>
-								<div class="col-lg-6 register_col">
-									<input type="text" class="form_input" name="pilihan5" placeholder="Opsi E" required="required">
-								</div>
-								<div class="col-lg-12 register_col">
-									<label for="jawab">Jawaban Benar</label>
-                                    <select class="form-control" name="jawab" class="form_input">
-                                        <option value="1">A</option>
-										<option value="2">B</option>
-										<option value="3">C</option>
-										<option value="4">D</option>
-										<option value="5">E</option>
+                                <div class="col-lg-6 register_col">
+                                    <label for="id_prodi">Prodi</label><br>
+                                    <select class="form-control" name="id_prodi" class="form_input">
+                                        <option value="1">Pendididkan Dokter</option>
+                                        <option value="2">Sekolah Bisnis Manajemen</option>
+                                        <option value="3">Sastra Jepang</option>
+                                        <option value="4">Sistem Informasi</option>
                                     </select>
-								</div>
+                                </div>
+                                <div class="col-lg-6 register_col">
+                                    <label for="status">Status</label><br>
+                                    <select class="form-control" name="status" class="form_input">
+                                        <option value="0">Non-aktif</option>
+                                        <option value="1">Aktif</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 register_col">
+                                    <label for="tgl_daftar">Tanggal Daftar</label><br>
+									<input type="date" class="form_input" name="tgl_daftar" placeholder="Tanggal Daftar" required="required">
+                                </div>
 								<div class="col">
 									<button type="submit" class="form_button trans_200">Simpan</button>
 								</div>

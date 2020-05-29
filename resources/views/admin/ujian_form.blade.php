@@ -116,7 +116,7 @@
 				<div class="col-lg-12">
 					<div class="register_form_container">
 						<div class="register_form_title">Entry Ujian</div>
-						<form action="#" id="register_form" class="register_form">
+						<form action="{{action('UjianController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">
                                 <div class="col-lg-6 register_col">
@@ -130,7 +130,7 @@
 									<input type="text" class="form_input" name="nama_ujian" placeholder="Nama Ujian" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
-									<input type="time" class="form_input" name="waktu" placeholder="Jam" required="required">
+									<input type="time" class="form_input" name="time" placeholder="Jam" required="required">
 								</div>
 								<div class="col-lg-6 register_col">
 									<input type="date" class="form_input" name="date" placeholder="Tanggal" required="required">
