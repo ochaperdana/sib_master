@@ -35,12 +35,10 @@
 							</div>
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="courses.html">Materi</a></li>
-									<li><a href="instructors.html">Tutor</a></li>
-									<li><a href="#">Soal</a></li>
-									<li><a href="blog.html">Ujian</a></li>
-									<li><a href="contact.html">Berita</a></li>
+									<li class="active"><a href="/main">Home</a></li>
+									<li><a href="#courses">Materi</a></li>
+									<li><a href="#instructors">Tutor</a></li>
+									<li><a href="#news">Berita</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -57,7 +55,7 @@
 
 								<!-- Hamburger -->
 
-								<div class="user"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></div>
+								<div class="user"><a href="/login"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -85,12 +83,10 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courses.html">Materi</a></li>
-				<li class="menu_mm"><a href="instructors.html">Tutor</a></li>
-				<li class="menu_mm"><a href="#">Soal</a></li>
-				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
-				<li class="menu_mm"><a href="contact.html">Berita</a></li>
+				<li class="menu_mm"><a href="/main">Home</a></li>
+				<li class="menu_mm"><a href="#courses">Materi</a></li>
+				<li class="menu_mm"><a href="#instructors">Tutor</a></li>
+				<li class="menu_mm"><a href="#news">Berita</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">
@@ -125,7 +121,7 @@
 
 	<!-- Courses -->
 
-	<div class="courses">
+	<div class="courses" id="courses">
 		<div class="courses_background"></div>
 		<div class="container">
 			<div class="row">
@@ -213,7 +209,7 @@
 
 	<!-- Instructors -->
 
-	<div class="instructors">
+	<div class="instructors" id="instructors">
 		<div class="instructors_background" style="background-image:url(images/instructors_background.png)"></div>
 		<div class="container">
 			<div class="row">
@@ -347,7 +343,7 @@
 
 	<!-- Events -->
 
-	<div class="events">
+	<div class="events" id="news">
 		<div class="container">
 			<div class="row">
 				<div class="col">

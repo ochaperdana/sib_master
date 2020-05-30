@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('main.index');
 });
 
+Route::resource('login', 'LoginController');
 Route::resource('admin', 'AdminController');
 Route::resource('tutor', 'TutorController');
 Route::resource('student', 'StudentController');
