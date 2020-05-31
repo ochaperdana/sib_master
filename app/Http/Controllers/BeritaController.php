@@ -42,4 +42,9 @@ class BeritaController extends Controller
         //     Siswa::create($siswas);
             return \redirect('admin')->with('success', 'Berhasil menambah!');
     }
+
+    public function show($p)
+    {
+        return view('student.berita');
+    }
 }

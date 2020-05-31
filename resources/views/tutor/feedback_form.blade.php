@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>UB-SIB | Admin</title>
+<title>UB-SIB | Tutor</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Lingua project">
@@ -33,6 +33,33 @@
 									<div class="logo_text">UB-SIB</div>
 								</a>
 							</div>
+							<nav class="main_nav_contaner">
+								<ul class="main_nav">
+									<li><a href="/tutor">Home</a></li>
+									<li><a href="{{action('MateriController@show', 'tutor')}}">Materi</a></li>
+									<li><a href="{{action('SoalController@show', 'tutor')}}">Soal</a></li>
+									<li class="active"><a href="{{action('FeedbackController@create')}}">Feedback</a></li>
+									<li><a href="">Forum</a></li>
+								</ul>
+							</nav>
+							<div class="header_content_right ml-auto text-right">
+								<div class="header_search">
+									<div class="search_form_container">
+										<form action="#" id="search_form" class="search_form trans_400">
+											<input type="search" class="header_search_input trans_400" placeholder="Cari..." required="required">
+											<div class="search_button">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</form>
+									</div>
+								</div>
+
+								<!-- Hamburger -->
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -41,6 +68,40 @@
 
 	</header>
 
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="/tutor">Home</a></li>
+				<li class="menu_mm"><a href="{{action('MateriController@show', 'tutor')}}">Materi</a></li>
+				<li class="menu_mm"><a href="{{action('SoalController@show', 'tutor')}}">Soal</a></li>
+				<li class="menu_mm"><a href="{{action('FeedbackController@create')}}">Feedback</a></li>
+				<li class="menu_mm"><a href="">Forum</a></li>
+			</ul>
+		</nav>
+		<div class="menu_extra">
+			<div class="menu_phone"><span class="menu_title">phone:</span>+44 300 303 0266</div>
+			<div class="menu_social">
+				<span class="menu_title">follow us</span>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
     <!-- Form -->
     <div class="register">
 		<div class="container">
@@ -48,20 +109,24 @@
 				
 				<!-- Register Form -->
 
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="register_form_container">
-                        <div class="form_title">Login</div>
-						<form action="{{ url('/admin') }}" id="register_form" class="register_form" method="GET">
-                            {{ csrf_field() }}
+						<div class="register_form_title">Entry Feedback</div>
+						<form action="#" id="register_form" class="register_form" method="POST">
+                        {{csrf_field()}}
 							<div class="row register_row">
-								<div class="col-lg-12 register_col">
-									<input type="text" class="form_input" placeholder="Username" required="required" name="username">
+								<div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="nama" placeholder="Nama Siswa" required="required">
+								</div>
+								<div class="col-lg-6 register_col">
+									<input type="text" class="form_input" name="title" placeholder="Title" required="required">
 								</div>
 								<div class="col-lg-12 register_col">
-									<input type="password" class="form_input" placeholder="Password" required="required" name="password">
+									<label for="isi">Isi Feedback</label>
+									<textarea class="form_input form_text" name="isi" placeholder="Isi Feedback" required="required"> </textarea>
 								</div>
 								<div class="col">
-									<button type="submit" class="form_button trans_200">Login</button>
+									<button type="submit" class="form_button trans_200">Simpan</button>
 								</div>
 							</div>
 						</form>

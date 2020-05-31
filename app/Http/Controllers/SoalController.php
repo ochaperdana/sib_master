@@ -50,4 +50,13 @@ class SoalController extends Controller
         //     Siswa::create($siswas);
             return \redirect('admin')->with('success', 'Berhasil menambah!');
     }
+
+    public function show($id)
+    {
+        if ($id=='tutor') {
+            return view('tutor.soal_form');
+        } else {
+        return view('admin.soal_form');
+        }
+    }
 }

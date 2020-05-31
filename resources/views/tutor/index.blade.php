@@ -35,11 +35,11 @@
 							</div>
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="courses.html">Materi</a></li>
-									<li><a href="blog.html">Soal</a></li>
-									<li><a href="contact.html">Ujian</a></li>
-									<li><a href="contact.html">Berita</a></li>
+									<li class="active"><a href="/tutor">Home</a></li>
+									<li><a href="{{action('MateriController@show', 'tutor')}}">Materi</a></li>
+									<li><a href="{{action('SoalController@show', 'tutor')}}">Soal</a></li>
+									<li><a href="{{action('FeedbackController@create')}}">Feedback</a></li>
+									<li><a href="">Forum</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -55,8 +55,6 @@
 								</div>
 
 								<!-- Hamburger -->
-
-								<div class="user"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -84,11 +82,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courses.html">Materi</a></li>
-				<li class="menu_mm"><a href="blog.html">Soal</a></li>
-				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
-				<li class="menu_mm"><a href="contact.html">Berita</a></li>
+				<li class="menu_mm"><a href="/tutor">Home</a></li>
+				<li class="menu_mm"><a href="{{action('MateriController@show', 'tutor')}}">Materi</a></li>
+				<li class="menu_mm"><a href="{{action('SoalController@show', 'tutor')}}">Soal</a></li>
+				<li class="menu_mm"><a href="{{action('FeedbackController@create')}}">Feedback</a></li>
+				<li class="menu_mm"><a href="">Forum</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">
@@ -140,8 +138,7 @@
 							<div class="course_title"><a href="course.html">Writing</a></div>
 							<div class="course_info">
 								<ul>
-									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -149,8 +146,7 @@
 							</div>
 						</div>
 						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
-							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
-							<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>110</span></div>
 							<!-- <div class="course_mark course_free trans_200"><a href="#">Free</a></div> -->
 						</div>
 					</div>
@@ -161,11 +157,10 @@
 					<div class="course">
 						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Listening</a></div>
+							<div class="course_title"><a href="course.html">Reading</a></div>
 							<div class="course_info">
 								<ul>
-									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">Spanish</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -173,8 +168,7 @@
 							</div>
 						</div>
 						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
-							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
-							<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>82</span></div>
 							<!-- <div class="course_mark course_free trans_200"><a href="#">Free</a></div> -->
 						</div>
 					</div>
@@ -188,8 +182,7 @@
 							<div class="course_title"><a href="course.html">Speaking</a></div>
 							<div class="course_info">
 								<ul>
-									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -197,8 +190,7 @@
 							</div>
 						</div>
 						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
-							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
-							<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>100</span></div>
 							<!-- <div class="course_mark trans_200"><a href="#">$45</a></div> -->
 						</div>
 					</div>

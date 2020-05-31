@@ -57,8 +57,6 @@
 								</div>
 
 								<!-- Hamburger -->
-
-								<div class="user"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -145,7 +143,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -165,11 +163,11 @@
 					<div class="course">
 						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Listening</a></div>
+							<div class="course_title"><a href="course.html">Reading</a></div>
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">Spanish</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -193,7 +191,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">

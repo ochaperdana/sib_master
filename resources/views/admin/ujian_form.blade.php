@@ -115,7 +115,12 @@
 
 				<div class="col-lg-12">
 					<div class="register_form_container">
-						<div class="register_form_title">Entry Ujian</div>
+						<div class="col-lg-3">
+							<div class="register_form_title">Entry Ujian</div>
+						</div>
+						<div class="col-lg-3">
+							<a href="{{ action ('UjianController@show', 'admin')}}"><button type="submit" class="form_button trans_200">Lihat Hasil Ujian</button></a>
+						</div>
 						<form action="{{action('UjianController@store')}}" id="register_form" class="register_form" method="POST">
                         {{csrf_field()}}
 							<div class="row register_row">

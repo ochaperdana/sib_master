@@ -25,3 +25,4 @@ Route::resource('materi', 'MateriController');
 Route::resource('soal', 'SoalController');
 Route::resource('berita', 'BeritaController');
 Route::resource('ujian', 'UjianController');
+Route::resource('feedback', 'FeedbackController');

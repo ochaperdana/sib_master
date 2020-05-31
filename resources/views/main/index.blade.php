@@ -126,7 +126,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">Materi</h2>
+					<h2 class="section_title text-center"><a href="">Materi</a></h2>
 				</div>
 			</div>
 			<div class="row courses_row">
@@ -140,7 +140,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -160,11 +160,11 @@
 					<div class="course">
 						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Listening</a></div>
+							<div class="course_title"><a href="course.html">Reading</a></div>
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">Spanish</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -188,7 +188,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">

@@ -44,4 +44,14 @@ class UjianController extends Controller
         //     Siswa::create($siswas);
             return \redirect('admin')->with('success', 'Berhasil menambah!');
     }
+
+    public function show($p)
+    {
+        if ($p=='admin') {
+            return view('admin.ujian');
+        } else {
+            return view('student.ujian');
+        }
+        
+    }
 }

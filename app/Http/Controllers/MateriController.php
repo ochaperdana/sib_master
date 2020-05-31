@@ -14,7 +14,7 @@ class MateriController extends Controller
      */
     public function create()
     {
-        return view('admin.course_form');
+            return view('admin.course_form');
     }
 
      /**
@@ -50,5 +50,14 @@ class MateriController extends Controller
         //     'tgl_daftar' => 'required']);
         //     Siswa::create($siswas);
             return \redirect('admin')->with('success', 'Berhasil menambah!');
+    }
+
+    public function show($id)
+    {
+        if ($id=='tutor') {
+            return view('tutor.course_form');
+        } else {
+        return view('student.materi');
+        }
     }
 }

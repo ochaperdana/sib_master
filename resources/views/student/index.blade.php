@@ -35,11 +35,11 @@
 							</div>
 							<nav class="main_nav_contaner">
 								<ul class="main_nav">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="courses.html">Materi</a></li>
-									<li><a href="blog.html">Ujian</a></li>
-									<li><a href="contact.html">Feedback</a></li>
-									<li><a href="contact.html">Berita</a></li>
+									<li class="active"><a href="/student">Home</a></li>
+									<li><a href="{{url('/materi/show')}}">Materi</a></li>
+									<li><a href="{{url('/ujian/show')}}">Ujian</a></li>
+									<li><a href="{{url('/feedback/show')}}">Feedback</a></li>
+									<li><a href="{{url('/berita/show')}}">Berita</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -55,8 +55,6 @@
 								</div>
 
 								<!-- Hamburger -->
-
-								<div class="user"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -84,11 +82,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courses.html">Materi</a></li>
-				<li class="menu_mm"><a href="blog.html">Ujian</a></li>
-				<li class="menu_mm"><a href="blog.html">Feedback</a></li>
-				<li class="menu_mm"><a href="contact.html">Berita</a></li>
+				<li class="menu_mm"><a href="/student">Home</a></li>
+				<li class="menu_mm"><a href="{{url('/materi/show')}}">Materi</a></li>
+				<li class="menu_mm"><a href="{{url('/ujian/show')}}">Ujian</a></li>
+				<li class="menu_mm"><a href="{{url('/feedback/show')}}">Feedback</a></li>
+				<li class="menu_mm"><a href="{{url('/berita/show')}}">Berita</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">
@@ -141,7 +139,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -161,11 +159,11 @@
 					<div class="course">
 						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Listening</a></div>
+							<div class="course_title"><a href="course.html">Reading</a></div>
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">Spanish</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -189,7 +187,7 @@
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Sarah Parker</a></li>
-									<li><a href="#">English</a></li>
+									<li><a href="#">TOEFL Preparation</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
@@ -466,66 +464,46 @@
 					<div class="blog_left">
 						<div class="blog_title"><a href="">Feedback</a></div>
 						<div class="blog_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p>
+							<p>You can expand the card to find out your feedback from the tutors.</p>
 						</div>
 						<div class="blog_categories">
 							<div class="row categories_row">
 								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
+								<div class="col-md-6 blog_category_col">
 									<a href="blog.html">
 										<div class="blog_category">
 											<div class="blog_category_image"><img src="images/blog_1.jpg" alt=""></div>
-											<div class="blog_category_title">travel</div>
+											<div class="blog_category_title">Weekly Exam</div>
 										</div>
 									</a>
 								</div>
 
 								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
+								<div class="col-md-6 blog_category_col">
 									<a href="blog.html">
 										<div class="blog_category">
 											<div class="blog_category_image"><img src="images/blog_2.jpg" alt=""></div>
-											<div class="blog_category_title">languages</div>
+											<div class="blog_category_title">Preparation Test</div>
 										</div>
 									</a>
 								</div>
 
 								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
+								<div class="col-md-6 blog_category_col">
 									<a href="blog.html">
 										<div class="blog_category">
 											<div class="blog_category_image"><img src="images/blog_3.jpg" alt=""></div>
-											<div class="blog_category_title">cultures</div>
+											<div class="blog_category_title">Quarter Test</div>
 										</div>
 									</a>
 								</div>
 
 								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
+								<div class="col-md-6 blog_category_col">
 									<a href="blog.html">
 										<div class="blog_category">
 											<div class="blog_category_image"><img src="images/blog_4.jpg" alt=""></div>
-											<div class="blog_category_title">fashion</div>
-										</div>
-									</a>
-								</div>
-
-								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_5.jpg" alt=""></div>
-											<div class="blog_category_title">cooking</div>
-										</div>
-									</a>
-								</div>
-
-								<!-- Category -->
-								<div class="col-md-4 blog_category_col">
-									<a href="blog.html">
-										<div class="blog_category">
-											<div class="blog_category_image"><img src="images/blog_6.jpg" alt=""></div>
-											<div class="blog_category_title">hobbies</div>
+											<div class="blog_category_title">Finals</div>
 										</div>
 									</a>
 								</div>
@@ -541,10 +519,11 @@
 					<div class="blog_right">
 						<div class="blog_image" style="background-image:url(images/blog_7.jpg)"></div>
 						<div class="blog_title_container">
-							<div class="blog_right_category"><a href="#">travel</a></div>
-							<div class="blog_right_title"><a href="blog_single.html">Design Better Forms</a></div>
+							<div class="blog_right_category"><a href="#">Preparation Test</a></div>
+							<div class="blog_right_title"><a href="blog_single.html">Keep up the good work!</a></div>
 							<div class="blog_right_text">
-								<p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface, forms are one of the most important components of digital product design.</p>
+								<p>Genuinely keep up with your study pace and have a better result next time. Be all rounders!</p><br/>
+								<p>Make sure that you are not having a rush during your writing test. It depends on how would you maintain your regular writing pace!</p>
 							</div>
 							<div class="read_more"><a href="blog_single.html">Read More <img src="images/right.png" alt=""></a></div>
 						</div>
