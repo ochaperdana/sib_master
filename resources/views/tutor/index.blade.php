@@ -29,7 +29,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container mr-auto">
-								<a href="#">
+								<a href="/tutor">
 									<div class="logo_text">UB-SIB</div>
 								</a>
 							</div>
@@ -39,7 +39,7 @@
 									<li><a href="{{action('MateriController@show', 'tutor')}}">Materi</a></li>
 									<li><a href="{{action('SoalController@show', 'tutor')}}">Soal</a></li>
 									<li><a href="{{action('FeedbackController@create')}}">Feedback</a></li>
-									<li><a href="">Forum</a></li>
+									<li><a href="http://www.slack.com">Forum</a></li>
 								</ul>
 							</nav>
 							<div class="header_content_right ml-auto text-right">
@@ -55,6 +55,7 @@
 								</div>
 
 								<!-- Hamburger -->
+								<div class="user"><a href="/login"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>

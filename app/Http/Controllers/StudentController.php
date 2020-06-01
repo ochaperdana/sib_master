@@ -39,6 +39,14 @@ class StudentController extends Controller
             'status' => $request->status,
             'tgl_daftar' => $request->tgl_daftar
         ]);
+
+        DB::table('user')->insert([
+            'id_user' => $request->id_siswa,
+            'username' => $request->username,
+            'password' => $request->password,
+            'type_user' => 'siswa',
+            'id_lbb' => 1
+        ]);
         // $siswas=$this->validate(request(), [
         //     'id_siswa' => 'required',
         //     'username' => 'required',

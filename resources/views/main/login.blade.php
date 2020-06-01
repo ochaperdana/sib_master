@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>UB-SIB | Admin</title>
+<title>UB-SIB</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Lingua project">
@@ -29,7 +29,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container mr-auto">
-								<a href="#">
+								<a href="/">
 									<div class="logo_text">UB-SIB</div>
 								</a>
 							</div>
@@ -51,7 +51,7 @@
 				<div class="col-lg-6">
 					<div class="register_form_container">
                         <div class="form_title">Login</div>
-						<form action="{{ url('/admin') }}" id="register_form" class="register_form" method="GET">
+						<form action="{{ url('/login') }}" id="register_form" class="register_form" method="POST">
                             {{ csrf_field() }}
 							<div class="row register_row">
 								<div class="col-lg-12 register_col">

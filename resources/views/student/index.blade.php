@@ -29,7 +29,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container mr-auto">
-								<a href="#">
+								<a href="/student">
 									<div class="logo_text">UB-SIB</div>
 								</a>
 							</div>
@@ -55,6 +55,7 @@
 								</div>
 
 								<!-- Hamburger -->
+								<div class="user"><a href="/login"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>

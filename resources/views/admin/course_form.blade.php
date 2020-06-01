@@ -29,7 +29,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container mr-auto">
-								<a href="#">
+								<a href="/admin">
 									<div class="logo_text">UB-SIB</div>
 								</a>
 							</div>
